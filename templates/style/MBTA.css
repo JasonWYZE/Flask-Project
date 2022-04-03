@@ -1,0 +1,17 @@
+#border{
+    background-color: lightblue;
+    padding: 20px;
+    margin:auto;
+    border: 5px solid white;
+    width:60%;
+}
+
+h1{
+    text-align: center;
+}
+
+label{
+    color: darkblue;
+}
+
+
