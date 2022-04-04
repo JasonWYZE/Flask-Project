@@ -17,6 +17,7 @@ def nearestStation():
 
 
         nearestStation, isAccessible = find_stop_near(placeName)
+        isAccessible = " " if isAccessible==1 else "not"
         return render_template("result.html", placeName = placeName, nearestStation = nearestStation, isAccessible = isAccessible)
     else:
         return render_template("index.html")
