@@ -1,5 +1,7 @@
 # WebApp-MBTA
-My project is providing the nearest station nearby based on the user’s input. By inputting the location, the program will get the latitude and longitude from the MAPQUEST API. After that, it will get the closest MBTA station based on the latitude and longitude. It is based on HTML, CSS, Flask, and python. 
+My project is providing the nearest station nearby based on the user’s input. By inputting the location, the program will get the latitude and longitude from the MAPQUEST API. After that, it will get the closest MBTA station based on the latitude and longitude. It is based on HTML, CSS, Flask, and python. <br /> 
+
+
+
 In this project, I did well in the python programming part while the web app take a long time for me. One of the small mistakes I made is I import the wrong function from the MTBA_helper and it takes me a long time to debug. Another problem is the request.form[] in the app python file. I thought the index in the form is based on the value of the button however, I found out that is a dictionary structure. I was wondering how to design my own route since I was considering what route I should put in when I was writing the code. 
-For unit testing, I keep testing my every piece function every time after I finish. It is really helpful since I don’t have to run the app.py every time to test it. I wish I can do more functions in my flask project while I spent too much time on one JAVA project. If I can do this again, I would consider trying to do this in Django since I learn a little bit before in winter breaker. 
-. 
+For unit testing, I keep testing my every piece function every time after I finish. It is really helpful since I don’t have to run the app.py every time to test it. I wish I can do more functions in my flask project while I spent too much time on one JAVA project. If I can do this again, I would consider trying to do this in Django since I learn a little bit before in winter breaker. <br /> 
