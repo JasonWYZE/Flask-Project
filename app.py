@@ -14,8 +14,6 @@ app = Flask(__name__)
 def nearestStation():
     if request.method == "POST":
         placeName= request.form['placeName']
-
-
         nearestStation, isAccessible = find_stop_near(placeName)
         isAccessible = " " if isAccessible==1 else "not"
         return render_template("result.html", placeName = placeName, nearestStation = nearestStation, isAccessible = isAccessible)
